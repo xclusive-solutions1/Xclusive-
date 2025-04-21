@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fc;
+  color: #111;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+.hero .banner {
+  color: #d200d2;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.cta-buttons {
+  margin-top: 20px;
+}
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn.dark {
+  background: #000;
+  color: #fff;
+}
+.btn.light {
+  background: #eaeaea;
+  color: #000;
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.metric-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.metric-card {
+  background: #0a0a0a;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+}
+.pain-card, .solution-card {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+}
+.faq details {
+  margin: 10px auto;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.logo-bar {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+footer nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
